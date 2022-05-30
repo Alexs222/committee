@@ -1,25 +1,9 @@
-# start-project-react18
+# Legislative assembly committee website project
 
-# Необходимо добавить файлы для настройки babel
+Use React 18 
 
-# .babelrc
-  {
-      "presets": [["@babel/preset-env",
-          {
-              "corejs": 3,
-              "useBuiltIns": "usage",
-              "debug": true,
-              "modules": false
-          }],
-                  "@babel/react"]
-  }
+development: npm start
+production: npm rum build
 
-# .browserslistrc
-    last 5 chrome versions
-    last 5 firefox versions
-    last 5 safari version
-    last 5 edge versions
-    last 3 ios versions
-    last 3 android versions
     
  
