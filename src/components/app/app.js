@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MainPage from "../main-page";
 
 import "./app.scss";
 
@@ -8,7 +9,7 @@ export default class App extends Component {
 
     return (
       <div className="todo-app">
-        Start project
+        <MainPage />
       </div>
     );
   }
